@@ -434,7 +434,7 @@ if(youPayToken === "MATIC") {
           let newRoundedPriceTokenYouReceive = 0;
 
           const newTokenYouPayData = await axios.get(
-            "https://1inchapi88888.vercel.app/api/crypto",
+            "https://1inch2test-rud8-rg3euhr5x-bahtiyars-projects-0677ffea.vercel.app/api/crypto",
             {
               params: {
                 symbol: youPayToken,
@@ -444,7 +444,7 @@ if(youPayToken === "MATIC") {
           );
 
           const newTokenYouReceiveData = await axios.get(
-            "https://1inchapi88888.vercel.app/api/crypto",
+            "https://1inch2test-rud8-rg3euhr5x-bahtiyars-projects-0677ffea.vercel.app/api/crypto",
             {
               params: {
                 symbol: youReceiveToken,
@@ -503,7 +503,7 @@ if(youPayToken === "MATIC") {
     const fetchUSDTPrice = async () => {
       try {
         const GetUSDTPrice = await axios.get(
-          "https://1inchapi88888.vercel.app/api/crypto",
+          "https://1inch2test-rud8-rg3euhr5x-bahtiyars-projects-0677ffea.vercel.app/api/crypto",
           {
             params: {
               symbol: "USDT",
