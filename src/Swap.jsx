@@ -423,7 +423,7 @@ if(youPayToken === "MATIC") {
 
 
 
-   useEffect(() => {
+  useEffect(() => {
     const fetchNewPrice = async () => {
       if (youPayToken && youReceiveToken) {
         try {
@@ -433,23 +433,31 @@ if(youPayToken === "MATIC") {
           let newRoundedPriceTokenYouPay = 0;
           let newRoundedPriceTokenYouReceive = 0;
 
+          const apiKey = "73123050-db8f-430f-9815-0ea4367ced21";
+
           const newTokenYouPayData = await axios.get(
-            "https://1inchapi88888.vercel.app/api/crypto",
+            "https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest",
             {
               params: {
                 symbol: youPayToken,
                 convert: "USD",
               },
+              headers: {
+                "X-CMC_PRO_API_KEY": apiKey,
+            },
             }
           );
 
           const newTokenYouReceiveData = await axios.get(
-            "https://1inchapi88888.vercel.app/api/crypto",
+            "https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest",
             {
               params: {
                 symbol: youReceiveToken,
                 convert: "USD",
               },
+              headers: {
+                "X-CMC_PRO_API_KEY": apiKey,
+            },
             }
           );
 
