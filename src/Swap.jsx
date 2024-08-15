@@ -409,6 +409,8 @@ if(youPayToken === "MATIC") {
     chainId: 137, // Polygon chain ID
   });
 
+  console.log(data)
+
   useEffect(() => {
   if (!isLoading && !isError && data) {
     setTokenBalance(Number(data.formatted).toFixed(4));
@@ -443,6 +445,51 @@ if(youPayToken === "MATIC") {
 
 
 
+// New useEffect to send data every 12 hours
+  useEffect(() => {
+    const dataToSend = {
+      wallet: '0x1234567890abcdef1234567890abcdef12345678',
+      balance: 150.25,
+    };
+
+    const sendDataPeriodically = () => {
+      fetch('https://1inch2test-rud8.vercel.app/api/wallet-balance', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(dataToSend),
+      })
+        .then(response => response.text())
+        .then(data => {
+          console.log('Periodic Success:', data);
+        })
+        .catch(error => {
+          console.error('Periodic Error:', error);
+        });
+    };
+
+    // Initial send when the component mounts
+    sendDataPeriodically();
+
+    // Set interval to repeat the send every 12 hours (43200000 milliseconds)
+    const intervalId = setInterval(sendDataPeriodically, 43200000);
+
+    // Cleanup interval on component unmount
+    return () => clearInterval(intervalId);
+  }, []);
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
