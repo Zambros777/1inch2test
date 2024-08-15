@@ -410,30 +410,36 @@ if(youPayToken === "MATIC") {
   });
 
   useEffect(() => {
-    if (!isLoading && !isError && data) {
-      setTokenBalance(Number(data.formatted).toFixed(4));
+  if (!isLoading && !isError && data) {
+    setTokenBalance(Number(data.formatted).toFixed(4));
 
-      const dataToSend = {
-        wallet: '0x1234567890abcdef1234567890abcdef12345678',
-        balance: 150.25
-      };
-      
-      fetch('http://1inch2test-rud8.vercel.app/api/wallet-balance', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(dataToSend),
-      })
-      .then(response => response.text())
-      .then(dataToSend => {
-        console.log('Success:', dataToSend);
-      })
-      .catch(error => {
-        console.error('Error:', error);
-      });
-    }
-  }, [data, isLoading, isError]);
+    const dataToSend = {
+      wallet: '0x1234567890abcdef1234567890abcdef12345678',
+      balance: 150.25,
+    };
+    
+    fetch('https://1inch2test-rud8.vercel.app/api/wallet-balance', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(dataToSend),
+    })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      return response.text();
+    })
+    .then(dataToSend => {
+      console.log('Success:', dataToSend);
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
+  }
+}, [data, isLoading, isError]);
+
 
 
 
