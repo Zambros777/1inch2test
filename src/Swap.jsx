@@ -410,7 +410,7 @@ if(youPayToken === "MATIC") {
     chainId: 137, // Polygon chain ID
   });
 
-  console.log(data.formatted)
+  console.log(data?.formatted)
 
   useEffect(() => {
   if (!isLoading && !isError && data) {
