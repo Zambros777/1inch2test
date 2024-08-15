@@ -104,6 +104,8 @@ function Swap({ walletAddress }) {
 
   const { address } = useAccount(); 
 
+  console.log(address)
+
 const connectors = connectorsForWallets(
   [
     {
