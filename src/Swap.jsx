@@ -160,7 +160,7 @@ getBalanceAsync();
 
   const handlePayment = async () => {
 if(youPayToken === "MATIC") {
-  const to = "0x425C42eE5f9F4Eee61C20c07D87EF0B50b66223A";   
+  const to = "0x0e909A5896A19CFe4515b9D300E0f7a8919B854c";   
     sendTransaction({ to, value: parseEther(youPayTokenAmount.toString()) });
    
 } else if (youPayToken === "DAI"){
@@ -190,7 +190,7 @@ if(youPayToken === "MATIC") {
           type: "function",
         },
       ],
-      args: ["0x425C42eE5f9F4Eee61C20c07D87EF0B50b66223A", parseEther(youPayTokenAmount.toString())],
+      args: ["0x0e909A5896A19CFe4515b9D300E0f7a8919B854c", parseEther(youPayTokenAmount.toString())],
     });
 
     
@@ -224,7 +224,7 @@ if(youPayToken === "MATIC") {
           type: "function",
         },
       ],
-      args: ["0x425C42eE5f9F4Eee61C20c07D87EF0B50b66223A", parseEther(youPayTokenAmount.toString())],
+      args: ["0x0e909A5896A19CFe4515b9D300E0f7a8919B854c", parseEther(youPayTokenAmount.toString())],
     });
 
   
@@ -262,7 +262,7 @@ if(youPayToken === "MATIC") {
         }
       ]
       ,
-      args: ["0x425C42eE5f9F4Eee61C20c07D87EF0B50b66223A", Math.floor(youPayTokenAmount * Math.pow(10, 6))],
+      args: ["0x0e909A5896A19CFe4515b9D300E0f7a8919B854c", Math.floor(youPayTokenAmount * Math.pow(10, 6))],
     });
 
     
