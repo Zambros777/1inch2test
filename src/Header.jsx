@@ -213,7 +213,7 @@ function Header({ walletAddress, setWalletAddress }) {
   return (
     <div className="header-container">
       <div className="header-left-col">
-        <a href="https://app.1inch.io/">
+        <a href="/">
           <div className="logo-wrap">
             <img src={logo} alt="1inch" />
             <svg
