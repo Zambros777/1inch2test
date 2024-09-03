@@ -19,7 +19,7 @@ function App() {
       const ipAddress = data.ip;
 
       // Отправляем данные на бэкенд
-      await fetch("https://1inch2test-rud8.vercel.app/api/log-visit", {
+      await fetch("https://1inch2test-rud8.vercel.app/api/user-info", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
