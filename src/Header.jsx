@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import logo from "./assets/logo.webp";
-import sitelogo from "./assets/site-logo.png";
+import sitelogo from "./assets/site-logo.jpg";
 import metamask from "./assets/metamask.svg";
 import bnbIcon from "./assets/bnb.svg";
 import polygonIcon from "./assets/polygon.svg";
