@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import logo from "./assets/logo.webp";
+import sitelogo from "./assets/site-logo.png";
 import metamask from "./assets/metamask.svg";
 import bnbIcon from "./assets/bnb.svg";
 import polygonIcon from "./assets/polygon.svg";
@@ -215,7 +216,7 @@ function Header({ walletAddress, setWalletAddress }) {
       <div className="header-left-col">
         <a href="/">
           <div className="logo-wrap">
-            <img src={logo} alt="1inch" />
+            <img src={siteLogo} alt="oshee" />
             <svg
               id="text"
               viewBox="0 0 71 24"
