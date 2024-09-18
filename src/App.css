@@ -307,6 +307,7 @@
   top: -8px; /* Добавлено для смещения вверх */
   left: 50%;
   transform: translateX(-50%);
+  color: white;
 }
 
 .swap-reverse:hover {
