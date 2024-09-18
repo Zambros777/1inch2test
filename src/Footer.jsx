@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <div className="footer">
-      <span className="footer-copyright">© 2024 1inch</span>
+      <span className="footer-copyright">© 2024 OSHEE</span>
       <div className="footer-ui-mirrors">
         <span>UI mirrors:</span>
         <a
