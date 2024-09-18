@@ -12,7 +12,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: radial-gradient(circle at left, #20334d, #2b1d2f, #332335);
+  background: radial-gradient(circle at left, #0d192c, black, #1c111e);
+
 }
 
 .header-container {
