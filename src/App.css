@@ -1536,6 +1536,7 @@ background-color: #173b68;
 svg#arrow-swap {
   width: 16px;
   height: 16px;
+  color: white;
 }
 
 /* Общие стили для header */
