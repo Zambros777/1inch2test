@@ -565,6 +565,7 @@ background-color: #173b68;
 .selected-token-symbol {
   margin-right: 0.5rem;
   font-size: 20px;
+  color: white;
 }
 
 #arrow-down {
@@ -574,6 +575,7 @@ background-color: #173b68;
 .destination-token-amount {
   font-size: 24px;
   font-weight: 400;
+  color: white;
 }
 
 .destination-title {
@@ -637,6 +639,7 @@ background-color: #173b68;
   font-size: 13px;
   font-weight: 400;
   margin-right: 0.25rem;
+  color: white;
 }
 
 .from-token-equal {
@@ -650,6 +653,7 @@ background-color: #173b68;
   font-size: 13px;
   font-weight: 400;
   margin-right: 0.25rem;
+  color: white;
 }
 
 .from-token-name {
@@ -657,6 +661,7 @@ background-color: #173b68;
   line-height: 16px;
   font-weight: 400;
   margin-right: 0.25rem;
+  color: white;
 }
 
 .usd-value {
@@ -684,6 +689,7 @@ background-color: #173b68;
   line-height: 16px;
   font-weight: 400;
   margin-right: 0.5rem;
+  color: white;
 }
 
 .swap-from-button-tooltip-usd-token-price {
