@@ -12,7 +12,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: radial-gradient(circle at left, #00c6ff, #0072ff, #1c111e);
+ background: radial-gradient(circle at left, #1a2d59, black, #391f3c);
+
 
 
 }
