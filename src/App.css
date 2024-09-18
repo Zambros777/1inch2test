@@ -60,7 +60,7 @@
 .logo-wrap {
   display: flex;
   align-items: center;
-  color: white;
+  color: #ffffff;
 }
 
 .header-left-col {
@@ -108,12 +108,12 @@
 
 .nav-menu-item span:hover {
   margin-right: 0.1rem;
-  color: white;
+  color: #ffffff;
 }
 
 .nav-menu-item-purple {
   background: linear-gradient(to right, #3555ee, #d702ff);
-  color: white !important;
+  color: #ffffff !important;
   padding: 4px 8px;
   font-size: 13px;
   line-height: 16px;
@@ -233,14 +233,14 @@
 
 .account-button-wallet-connected span {
   background-color: #324054;
-  color: white;
+  color: #ffffff;
   padding: 4px 8px;
   border-radius: 12px;
   border: 1px solid transparent;
 }
 
 .account-button-wallet-connected span:hover {
-  border: 1px solid white;
+  border: 1px solid #ffffff;
 }
 
 .account-button button #wallet {
@@ -397,7 +397,7 @@
 .settings-icon img {
   width: 24px;
   height: 24px;
-  color: white;
+  color: #ffffff;
 }
 
 .swap-form-header {
@@ -720,7 +720,7 @@ background-color: #173b68;
 }
 
 .footer-ui-mirrors span:first-child {
-  white-space: nowrap;
+  #ffffff-space: nowrap;
 }
 
 #arrow-link {
@@ -737,7 +737,7 @@ background-color: #173b68;
 }
 
 .footer-ui-mirrors a:hover {
-  color: white;
+  color: #ffffff;
 }
 
 .block-number {
@@ -753,7 +753,7 @@ background-color: #173b68;
   text-decoration: none;
   transition: 0.2s;
   margin-left: 12px;
-  white-space: nowrap;
+  #ffffff-space: nowrap;
   margin-left: 10px;
 }
 
@@ -847,7 +847,7 @@ background-color: #173b68;
 }
 
 #help2:hover {
-  color: white;
+  color: #ffffff;
 }
 
 #settings4 {
@@ -855,7 +855,7 @@ background-color: #173b68;
 }
 
 #settings4:hover {
-  color: white;
+  color: #ffffff;
 }
 
 .dropdownBridges {
@@ -1010,7 +1010,7 @@ background-color: #173b68;
 }
 
 .dropdown-trade-item:hover {
-  color: white;
+  color: #ffffff;
   background-color: #0c1119;
 }
 
@@ -1031,7 +1031,7 @@ background-color: #173b68;
   top: 100%;
   left: 0;
   margin-top: 10px;
-  white-space: nowrap;
+  #ffffff-space: nowrap;
   opacity: 0;
   visibility: hidden;
   transform: translateY(-10px);
@@ -1202,13 +1202,13 @@ background-color: #173b68;
 .settings-dropdown-title span {
   font-size: 20px;
   font-weight: 500;
-  color: white;
+  color: #ffffff;
 }
 
 .settings-dropdown-title svg {
   width: 24px;
   height: 24px;
-  color: white;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -1217,7 +1217,7 @@ background-color: #173b68;
 }
 
 .settings-dropdown-item-title h3 {
-  color: white;
+  color: #ffffff;
   margin-bottom: 0.5rem;
   font-weight: 400;
 }
@@ -1261,7 +1261,7 @@ background-color: #173b68;
 }
 
 .dropdown-settings-theme-content-item:hover {
-  color: white;
+  color: #ffffff;
 }
 
 .dropdown-settings-theme-content-item span {
@@ -1326,7 +1326,7 @@ background-color: #173b68;
 }
 
 .slp-tlr {
-  color: white;
+  color: #ffffff;
 }
 
 #slp-tlr {
@@ -1360,11 +1360,11 @@ background-color: #173b68;
 }
 
 .min-receive-val {
-  color: white;
+  color: #ffffff;
 }
 
 .min-receive-token {
-  color: white;
+  color: #ffffff;
 }
 
 #min-receive-val {
@@ -1413,7 +1413,7 @@ background-color: #173b68;
 
 .swap-form-input-token-list {
   padding: 16px 40px 16px 16px;
-  color: white;
+  color: #ffffff;
   background: none;
   border: none;
   line-height: 19px;
@@ -1465,7 +1465,7 @@ background-color: #173b68;
 }
 
 .favourite-tokens-container span {
-  color: white;
+  color: #ffffff;
 }
 
 .favourite-tokens-container div {
@@ -1475,7 +1475,7 @@ background-color: #173b68;
   margin: 0 6px 8px 0;
   border-radius: 8px;
   border: 1px solid #37445a;
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   cursor: pointer;
 }
@@ -1610,7 +1610,7 @@ svg#arrow-swap {
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: white;
+  background-color: #ffffff;
   box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
   z-index: 999;
   transform: translateX(100%);
@@ -1621,7 +1621,7 @@ svg#arrow-swap {
   display: block;
   transform: translateX(0);
   background-color: #06070a;
-  color: white;
+  color: #ffffff;
   border-top: 4rem;
   padding-bottom: 8px;
   padding-left: 16px;
@@ -1639,7 +1639,7 @@ svg#arrow-swap {
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: white;
+  background-color: #ffffff;
   box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
   z-index: 999;
   transform: translateX(100%);
@@ -1651,7 +1651,7 @@ svg#arrow-swap {
   transform: translateX(0);
 
   background-color: #06070a;
-  color: white;
+  color: #ffffff;
   border-top: 4rem;
   padding-bottom: 8px;
   padding-left: 16px;
@@ -1890,7 +1890,7 @@ margin-left: -15rem;
 .dropdown-settings-language-title div {
   font-size: 20px;
   font-weight: 500;
-  color: white;
+  color: #ffffff;
   margin-left: auto;
   margin-right: auto;
 }
@@ -2123,7 +2123,7 @@ margin-left: -15rem;
   }
 
   .footer {
-    white-space: nowrap;
+    #ffffff-space: nowrap;
     padding-left: 1rem;
     padding-right: 1rem;
   }
