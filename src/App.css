@@ -60,7 +60,7 @@
 .logo-wrap {
   display: flex;
   align-items: center;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .header-left-col {
@@ -108,12 +108,12 @@
 
 .nav-menu-item span:hover {
   margin-right: 0.1rem;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .nav-menu-item-purple {
   background: linear-gradient(to right, #3555ee, #d702ff);
-  color: rgb(255, 255, 255) !important;
+  color: white !important;
   padding: 4px 8px;
   font-size: 13px;
   line-height: 16px;
@@ -233,14 +233,14 @@
 
 .account-button-wallet-connected span {
   background-color: #324054;
-  color: rgb(255, 255, 255);
+  color: white;
   padding: 4px 8px;
   border-radius: 12px;
   border: 1px solid transparent;
 }
 
 .account-button-wallet-connected span:hover {
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid white;
 }
 
 .account-button button #wallet {
@@ -397,7 +397,7 @@
 .settings-icon img {
   width: 24px;
   height: 24px;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .swap-form-header {
@@ -737,7 +737,7 @@ background-color: #173b68;
 }
 
 .footer-ui-mirrors a:hover {
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .block-number {
@@ -1010,7 +1010,7 @@ background-color: #173b68;
 }
 
 .dropdown-trade-item:hover {
-  color: rgb(255, 255, 255);
+  color: white;
   background-color: #0c1119;
 }
 
@@ -1202,13 +1202,13 @@ background-color: #173b68;
 .settings-dropdown-title span {
   font-size: 20px;
   font-weight: 500;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .settings-dropdown-title svg {
   width: 24px;
   height: 24px;
-  color: rgb(255, 255, 255);
+  color: white;
   cursor: pointer;
 }
 
@@ -1217,7 +1217,7 @@ background-color: #173b68;
 }
 
 .settings-dropdown-item-title h3 {
-  color: rgb(255, 255, 255);
+  color: white;
   margin-bottom: 0.5rem;
   font-weight: 400;
 }
@@ -1261,7 +1261,7 @@ background-color: #173b68;
 }
 
 .dropdown-settings-theme-content-item:hover {
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .dropdown-settings-theme-content-item span {
@@ -1326,7 +1326,7 @@ background-color: #173b68;
 }
 
 .slp-tlr {
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 #slp-tlr {
@@ -1360,11 +1360,11 @@ background-color: #173b68;
 }
 
 .min-receive-val {
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .min-receive-token {
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 #min-receive-val {
@@ -1413,7 +1413,7 @@ background-color: #173b68;
 
 .swap-form-input-token-list {
   padding: 16px 40px 16px 16px;
-  color: rgb(255, 255, 255);
+  color: white;
   background: none;
   border: none;
   line-height: 19px;
@@ -1465,7 +1465,7 @@ background-color: #173b68;
 }
 
 .favourite-tokens-container span {
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .favourite-tokens-container div {
@@ -1475,7 +1475,7 @@ background-color: #173b68;
   margin: 0 6px 8px 0;
   border-radius: 8px;
   border: 1px solid #37445a;
-  color: rgb(255, 255, 255);
+  color: white;
   text-decoration: none;
   cursor: pointer;
 }
@@ -1621,7 +1621,7 @@ svg#arrow-swap {
   display: block;
   transform: translateX(0);
   background-color: #06070a;
-  color: rgb(255, 255, 255);
+  color: white;
   border-top: 4rem;
   padding-bottom: 8px;
   padding-left: 16px;
@@ -1651,7 +1651,7 @@ svg#arrow-swap {
   transform: translateX(0);
 
   background-color: #06070a;
-  color: rgb(255, 255, 255);
+  color: white;
   border-top: 4rem;
   padding-bottom: 8px;
   padding-left: 16px;
@@ -1890,7 +1890,7 @@ margin-left: -15rem;
 .dropdown-settings-language-title div {
   font-size: 20px;
   font-weight: 500;
-  color: rgb(255, 255, 255);
+  color: white;
   margin-left: auto;
   margin-right: auto;
 }
